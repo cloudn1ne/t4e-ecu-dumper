@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.2.5.0" name="T4e ECU Dumper.exe" publicKeyToken="b654d628dccdbc96" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:publisher="WARP" asmv2:product="T4e ECU Dumper" asmv2:supportUrl="http://www.warp.at/" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="T4e ECU Dumper" version="1.2.5.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="T4e ECU Dumper.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="T4e ECU Dumper.exe" size="1632768">
+      <assemblyIdentity name="T4e ECU Dumper" version="1.2.5.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ZeNH1OFYDsw9Q58psbUxC19rOgg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=LABVM01\cn" issuerKeyHash="3bb18afd3adc915605d000592b739f3e3d0d9e96" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>NYUsWUEg7jBm4CvpTXwfgnM1ups=</DigestValue></Reference></SignedInfo><SignatureValue>ByhCuG1qHedbhxAEXYZUSlSTmvQfW+2ig6yl+HNx/H6Qa39Ynjm8B50OGAb266P8JeHP+zSPO9rjEwYFx+drJE3Abj5gIR1q1K5Yw8mn0LHaaluS88L0LtLrDcZKq/6fvlcY8oLdMiD1xc0m4zz8TbimcO4a2IIO1mb3PRa6rdU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>o305eGYAONG85TVrUBI1xRJ7oIK2m8LwTezteahXbKpIoFEgS9XsAogCMWEykJzXTh2FefCWS/RaYBC4F9uNuTIFUIJw7XtPP1Rc0uMuSKZreqxXVNxBRJR3Yl2KNb2LgygMO26wnZe39zXzuNO+y3ZhFH2spPLbHgxQWCq+9is=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9bba3573821f7c4de92be06630ee2041592c8535" Description="" Url=""><as:assemblyIdentity version="1.2.5.0" name="T4e ECU Dumper.exe" publicKeyToken="b654d628dccdbc96" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LABVM01\cn</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>vRu1RSIbmca4p8ov/HmsXS++vZI=</DigestValue></Reference></SignedInfo><SignatureValue>I6TFRV6x+2QnsD18MfeujXfcx3XdUOmOSS+UrB9ssitXSKnoYFG1oIuIts8EcZJ4JbsFa6MWhDJXgUDCw0ct19nV7/haezuqFSfNLIhH1A+FAYT/zaMJpWaDJhy9Ez0E191ZUZpUHgLneRE5r1A+tAe+TeG6WBYbgLMty37A45A=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>o305eGYAONG85TVrUBI1xRJ7oIK2m8LwTezteahXbKpIoFEgS9XsAogCMWEykJzXTh2FefCWS/RaYBC4F9uNuTIFUIJw7XtPP1Rc0uMuSKZreqxXVNxBRJR3Yl2KNb2LgygMO26wnZe39zXzuNO+y3ZhFH2spPLbHgxQWCq+9is=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASagAwIBAgIQU2/lYy5/1ItI9wk0vF0y2zAJBgUrDgMCHQUAMB8xHTAbBgNVBAMeFABMAEEAQgBWAE0AMAAxAFwAYwBuMB4XDTE2MDMyMzAzNDc0MVoXDTE3MDMyMzA5NDc0MVowHzEdMBsGA1UEAx4UAEwAQQBCAFYATQAwADEAXABjAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKN9OXhmADjRvOU1a1ASNcUSe6CCtpvC8E3s7XmoV2yqSKBRIEvV7AKIAjFhMpCc104dhXnwlkv0WmAQuBfbjbkyBVCCcO17Tz9UXNLjLkima3qsV1TcQUSUd2JdijW9i4MoDDtusJ2Xt/c187jTvst2YRR9rKTy2x4MUFgqvvYrAgMBAAEwCQYFKw4DAh0FAAOBgQBJP4XRTtBkbXDD5Ka7eYy3SEGPL3EAITDWPB0lOS9mibL/UFe+5/vvX7EiNvXd1kCh6mIF074F1bjIYTloJ4Q6Lv5EC7h/h0W/RzqppfQFiixb8MeAPbMZlFS8vt3LPzSrT9FQtHTETK1zqIbf8vDNsTDOssBAUPAINHgKFLSDLw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

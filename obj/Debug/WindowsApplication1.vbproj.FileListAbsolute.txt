@@ -1,0 +1,11 @@
+\\10.146.248.20\cn\Elise ECU\t4e_ecu_dump\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+\\10.146.248.20\cn\Elise ECU\t4e_ecu_dump\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+\\10.146.248.20\cn\Elise ECU\t4e_ecu_dump\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+\\10.146.248.20\cn\Elise ECU\t4e_ecu_dump\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+\\10.146.248.20\cn\Elise ECU\t4e_ecu_dump\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+\\10.146.248.20\cn\Elise ECU\t4e_ecu_dump\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+\\10.146.248.20\cn\Elise ECU\t4e_ecu_dump\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+\\10.146.248.20\cn\Elise ECU\t4e_ecu_dump\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+\\10.146.248.20\cn\Elise ECU\t4e_ecu_dump\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+\\10.146.248.20\cn\Elise ECU\t4e_ecu_dump\WindowsApplication1\obj\Debug\WindowsApplication1.Main.resources
+\\10.146.248.20\cn\Elise ECU\t4e_ecu_dump\WindowsApplication1\obj\Debug\WindowsApplication1.AboutBox.resources
